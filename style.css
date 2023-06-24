@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#151d25 ;
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 19px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+ 
+}
+.logo{
+    color:#0dcaf0 ;
+    font-size: 20px;
+}
+
+.head{
+    color: #0dcaf0 ;
+    margin: 15%;
+    font-size: 35px;
+}
+.head p{
+    color: gray;
+    font-size: 27px;
+    margin-top: 12px;
+}
+.cont img{
+    width: 350px;   
+}
+
+.cont-1{
+    background-color: #2e3741;
+    padding: 40px;
+    border-radius:25px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.cont h2{
+    color: white;
+    padding-bottom: 15px;
+}
+.cont p{
+    color: gray;
+    padding-bottom: 15px;
+}
+.cont button{
+    background-color: #0dcaf0;
+    padding: 10px;
+    width: 120px;
+color: white;
+border:0;
+border-radius: 15px;
+}
+.cont{
+    background-color: #2e3741;
+    padding: 50px;
+    border-radius: 20px;
+}
+.moo{
+    background-color: #2e3741;
+    padding: 20px;
+    text-align: center;
+    border-radius:25px;
+
+ 
+}
+.mooha{
+    width: 75%;
+    justify-content: center;
+    margin-left: 12%;
+    margin-top: 20px;
+}
+.mooha button{
+    background-color: #0dcaf0;
+    padding: 10px;
+    width: 120px;
+color: white;
+border:0;
+border-radius: 15px;
+}
+.moo h1{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 70px;
+
+}
+.moo p{
+    color: gray;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.futt-1 img{
+    width: 400px;
+    border-radius: 10px;
+}
+.futt{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.futt-1{
+    margin-top: 10px;
+    background-color: #2e3741;
+    border-radius: 10px;
+    padding-bottom: 60px;
+    
+}
+.futt-1 h1{
+    color: white;
+    padding-bottom: 30px;
+    margin-left: 10px;
+}
+.futt-1 p{
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+}
+.futt-1 .btn button{
+    padding: 10px;
+    
+    border: 1px solid white;
+    background: transparent;
+    margin-left: 10px;
+    color: white;
+}
+.cwn{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.login img{
+    width: 350px;
+}
+
+.b2 button{
+    background-color: #0dcaf0;
+    color: white;
+    padding: 4px;
+    width: 80px;
+    display: flex;
+    border-radius: 9px;
+    border: 0;
+
+}
+
+.b2{
+    gap: 10px;
+    display: flex;
+}
+
+.link h1{
+    padding-top: 10px;
+    color: white;
+}
+.link h4{
+    padding-top: 30px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    color: aqua;
+
+}
+.logg-txt{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.next button{
+background-color: #0dcaf0;
+padding: 15px;
+width: 120px;
+border: 0;
+color: white;
+font-weight: 600;
+}
+.next a{
+    color: white;
+    
+}
+.next{
+    margin-left: 200px;
+   
+   
+}
+.about{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.about button{
+    margin-top: 10px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+}
+
+.icone img{
+    width: 390px;
+}
+.icone{
+    gap: 25px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.flex p{
+    color: gray;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.flex{
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-size: 25px;
+}
+.contt input{
+    width: 300px;
+    padding: 14px;
+
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid white;
+}
+.contt{
+    text-align: center;
+    margin-top: 100px;
+}
+.contt button{
+    padding: 13px;
+    width: 200px;
+   text-align: center;
+    margin-top: 20px;
+    background-color: #0dcaf0;
+    color: white;
+    font-size: 20px;
+    border: 0;
+   
+}
+.contt h1{
+    color: white;
+}
+.message input{
+    padding-bottom: 100px;
+    
+    
+}
